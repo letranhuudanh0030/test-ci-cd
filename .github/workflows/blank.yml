@@ -23,5 +23,5 @@ jobs:
     - name: Run application for integration tests
       run: |
         docker run -d -p 3000:3000 my-app:test
-        sleep 10  # Đợi ứng dụng khởi động
-        curl http://localhost:3000  # Test endpoint
+        sleep 10  
+        curl http://localhost:3000  
